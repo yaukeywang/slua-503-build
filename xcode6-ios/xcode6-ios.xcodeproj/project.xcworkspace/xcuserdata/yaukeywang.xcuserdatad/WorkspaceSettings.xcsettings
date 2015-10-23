@@ -9,7 +9,7 @@
 	<key>CustomBuildLocationType</key>
 	<string>RelativeToDerivedData</string>
 	<key>CustomBuildProductsPath</key>
-	<string>../../Build/IOS</string>
+	<string>../../Build/iOS</string>
 	<key>DerivedDataLocationStyle</key>
 	<string>Default</string>
 	<key>IssueFilterStyle</key>
