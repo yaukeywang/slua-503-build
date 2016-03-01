@@ -249,24 +249,4 @@
       <Filter>lua-5.3.2</Filter>
     </ClInclude>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="..\lua-src\sproto\print_r.lua">
-      <Filter>sproto</Filter>
-    </None>
-    <None Include="..\lua-src\sproto\sproto.lua">
-      <Filter>sproto</Filter>
-    </None>
-    <None Include="..\lua-src\sproto\sprotoparser.lua">
-      <Filter>sproto</Filter>
-    </None>
-    <None Include="..\lua-src\sproto\test.lua">
-      <Filter>sproto</Filter>
-    </None>
-    <None Include="..\lua-src\sproto\testall.lua">
-      <Filter>sproto</Filter>
-    </None>
-    <None Include="..\lua-src\sproto\testrpc.lua">
-      <Filter>sproto</Filter>
-    </None>
-  </ItemGroup>
 </Project>

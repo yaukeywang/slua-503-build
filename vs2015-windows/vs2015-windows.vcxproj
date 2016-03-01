@@ -109,14 +109,6 @@
     <ClInclude Include="..\lua-src\sproto\msvcint.h" />
     <ClInclude Include="..\lua-src\sproto\sproto.h" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="..\lua-src\sproto\print_r.lua" />
-    <None Include="..\lua-src\sproto\sproto.lua" />
-    <None Include="..\lua-src\sproto\sprotoparser.lua" />
-    <None Include="..\lua-src\sproto\test.lua" />
-    <None Include="..\lua-src\sproto\testall.lua" />
-    <None Include="..\lua-src\sproto\testrpc.lua" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E7ED83AB-25BD-49F4-A6C7-2D8869BF046B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>

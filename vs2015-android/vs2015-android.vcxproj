@@ -24,52 +24,52 @@
     <ClCompile Include="..\lua-src\lpeg-1.0.0\lpprint.c" />
     <ClCompile Include="..\lua-src\lpeg-1.0.0\lptree.c" />
     <ClCompile Include="..\lua-src\lpeg-1.0.0\lpvm.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\lapi.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\lauxlib.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\lbaselib.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\lbitlib.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\lcode.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\lcorolib.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\lctype.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\ldblib.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\ldebug.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\ldo.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\ldump.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\lfunc.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\lgc.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\linit.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\liolib.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\llex.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\lmathlib.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\lmem.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\loadlib.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\lobject.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\lopcodes.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\loslib.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\lparser.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\lstate.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\lstring.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\lstrlib.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\ltable.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\ltablib.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\ltm.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\lua.c">
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\lapi.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\lauxlib.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\lbaselib.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\lbitlib.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\lcode.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\lcorolib.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\lctype.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\ldblib.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\ldebug.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\ldo.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\ldump.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\lfunc.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\lgc.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\linit.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\liolib.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\llex.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\lmathlib.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\lmem.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\loadlib.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\lobject.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\lopcodes.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\loslib.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\lparser.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\lstate.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\lstring.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\lstrlib.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\ltable.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\ltablib.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\ltm.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\lua.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\luac.c">
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\luac.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\lundump.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\lutf8lib.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\lvm.c" />
-    <ClCompile Include="..\lua-src\lua-5.3.1\src\lzio.c" />
-    <ClCompile Include="..\lua-src\slua-1.0.1\slua.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\lundump.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\lutf8lib.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\lvm.c" />
+    <ClCompile Include="..\lua-src\lua-5.3.2\src\lzio.c" />
+    <ClCompile Include="..\lua-src\slua-1.1.1\slua.c" />
     <ClCompile Include="..\lua-src\sproto\lsproto.c" />
     <ClCompile Include="..\lua-src\sproto\sproto.c" />
   </ItemGroup>
@@ -80,32 +80,32 @@
     <ClInclude Include="..\lua-src\lpeg-1.0.0\lptree.h" />
     <ClInclude Include="..\lua-src\lpeg-1.0.0\lptypes.h" />
     <ClInclude Include="..\lua-src\lpeg-1.0.0\lpvm.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\lapi.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\lauxlib.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\lcode.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\lctype.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\ldebug.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\ldo.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\lfunc.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\lgc.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\llex.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\llimits.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\lmem.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\lobject.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\lopcodes.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\lparser.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\lprefix.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\lstate.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\lstring.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\ltable.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\ltm.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\lua.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\lua.hpp" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\luaconf.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\lualib.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\lundump.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\lvm.h" />
-    <ClInclude Include="..\lua-src\lua-5.3.1\src\lzio.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\lapi.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\lauxlib.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\lcode.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\lctype.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\ldebug.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\ldo.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\lfunc.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\lgc.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\llex.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\llimits.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\lmem.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\lobject.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\lopcodes.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\lparser.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\lprefix.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\lstate.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\lstring.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\ltable.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\ltm.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\lua.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\lua.hpp" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\luaconf.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\lualib.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\lundump.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\lvm.h" />
+    <ClInclude Include="..\lua-src\lua-5.3.2\src\lzio.h" />
     <ClInclude Include="..\lua-src\sproto\msvcint.h" />
     <ClInclude Include="..\lua-src\sproto\sproto.h" />
   </ItemGroup>
@@ -166,7 +166,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>../lua-src/lua-5.3.1/src;../lua-src/slua-1.0.1;../lua-src/lpeg-1.0.0;../lua-src/sproto;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../lua-src/lua-5.3.2/src;../lua-src/slua-1.1.1;../lua-src/lpeg-1.0.0;../lua-src/sproto;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);LUA_USE_C89;LPEG_DEBUG</PreprocessorDefinitions>
       <AdditionalOptions>-D "lua_getlocaledecpoint()=('.')" %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
@@ -179,7 +179,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>../lua-src/lua-5.3.1/src;../lua-src/slua-1.0.1;../lua-src/lpeg-1.0.0;../lua-src/sproto;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../lua-src/lua-5.3.2/src;../lua-src/slua-1.1.1;../lua-src/lpeg-1.0.0;../lua-src/sproto;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);LUA_USE_C89;LPEG_DEBUG;__ARM_ARCH_7A__</PreprocessorDefinitions>
       <AdditionalOptions>-D "lua_getlocaledecpoint()=('.')" %(AdditionalOptions)</AdditionalOptions>
       <CLanguageStandard>Default</CLanguageStandard>
@@ -193,7 +193,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>../lua-src/lua-5.3.1/src;../lua-src/slua-1.0.1;../lua-src/lpeg-1.0.0;../lua-src/sproto;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../lua-src/lua-5.3.2/src;../lua-src/slua-1.1.1;../lua-src/lpeg-1.0.0;../lua-src/sproto;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>-D "lua_getlocaledecpoint()=('.')" %(AdditionalOptions)</AdditionalOptions>
       <PreprocessorDefinitions>LUA_USE_C89</PreprocessorDefinitions>
     </ClCompile>
@@ -206,7 +206,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>../lua-src/lua-5.3.1/src;../lua-src/slua-1.0.1;../lua-src/lpeg-1.0.0;../lua-src/sproto;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../lua-src/lua-5.3.2/src;../lua-src/slua-1.1.1;../lua-src/lpeg-1.0.0;../lua-src/sproto;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>LUA_USE_C89;__ARM_ARCH_7A__</PreprocessorDefinitions>
       <AdditionalOptions>-D "lua_getlocaledecpoint()=('.')" %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
