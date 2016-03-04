@@ -120,25 +120,25 @@
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>Clang_3_6</PlatformToolset>
-    <AndroidAPILevel>android-9</AndroidAPILevel>
+    <AndroidAPILevel>android-18</AndroidAPILevel>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>Clang_3_6</PlatformToolset>
-    <AndroidAPILevel>android-9</AndroidAPILevel>
+    <AndroidAPILevel>android-18</AndroidAPILevel>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>Clang_3_6</PlatformToolset>
-    <AndroidAPILevel>android-9</AndroidAPILevel>
+    <AndroidAPILevel>android-18</AndroidAPILevel>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>Clang_3_6</PlatformToolset>
-    <AndroidAPILevel>android-9</AndroidAPILevel>
+    <AndroidAPILevel>android-18</AndroidAPILevel>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings" />
@@ -167,7 +167,7 @@
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>../lua-src/lua-5.3.1/src;../lua-src/slua-1.0.1;../lua-src/lpeg-1.0.0;../lua-src/sproto;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);LUA_USE_C89;LPEG_DEBUG</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);LPEG_DEBUG;</PreprocessorDefinitions>
       <AdditionalOptions>-D "lua_getlocaledecpoint()=('.')" %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
@@ -180,7 +180,7 @@
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>../lua-src/lua-5.3.1/src;../lua-src/slua-1.0.1;../lua-src/lpeg-1.0.0;../lua-src/sproto;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);LUA_USE_C89;LPEG_DEBUG;__ARM_ARCH_7A__</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);LPEG_DEBUG;__ARM_ARCH_7A__</PreprocessorDefinitions>
       <AdditionalOptions>-D "lua_getlocaledecpoint()=('.')" %(AdditionalOptions)</AdditionalOptions>
       <CLanguageStandard>Default</CLanguageStandard>
     </ClCompile>
@@ -195,7 +195,8 @@
       </PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>../lua-src/lua-5.3.1/src;../lua-src/slua-1.0.1;../lua-src/lpeg-1.0.0;../lua-src/sproto;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>-D "lua_getlocaledecpoint()=('.')" %(AdditionalOptions)</AdditionalOptions>
-      <PreprocessorDefinitions>LUA_USE_C89</PreprocessorDefinitions>
+      <PreprocessorDefinitions>
+      </PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalOptions>-lm %(AdditionalOptions)</AdditionalOptions>
@@ -207,7 +208,7 @@
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>../lua-src/lua-5.3.1/src;../lua-src/slua-1.0.1;../lua-src/lpeg-1.0.0;../lua-src/sproto;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>LUA_USE_C89;__ARM_ARCH_7A__</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__ARM_ARCH_7A__</PreprocessorDefinitions>
       <AdditionalOptions>-D "lua_getlocaledecpoint()=('.')" %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
