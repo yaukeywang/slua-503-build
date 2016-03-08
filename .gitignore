@@ -3,7 +3,9 @@
 /Build/
 
 /vs2015-android/ARM/
+/vs2015-android/ARM64/
 /vs2015-android/x86/
+/vs2015-android/x64/
 
 /vs2015-windows/Debug/
 /vs2015-windows/Release/
